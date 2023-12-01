@@ -1,0 +1,31 @@
+.content{
+  .logo{
+    text-align: center;
+    margin-top: 95px;
+  }
+}
+
+.year_selector{
+  max-width: 925px;
+  margin: 0 auto;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .year_btn{
+    background-color: $gray-200;
+    color: #000;
+    max-width: 175px;
+    width: 20%;
+    height: 50px;
+    border-radius: 500px;
+    margin-right: 12.5px;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    &:nth-child(5){
+      margin-right: 0;
+    }
+  }
+}
