@@ -5,7 +5,13 @@ export default defineNuxtConfig({
     // SCSS file in the project
     "~/assets/scss/main.scss", // you should add main.scss somewhere in your app
   ],
+  buildModules: ['@nuxtjs/google-fonts'],
 
+  googleFonts: {
+    families: {
+      Roboto: true,
+    },
+  },
   vite:{
     css:{
       preprocessorOptions:{

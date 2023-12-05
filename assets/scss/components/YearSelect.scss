@@ -1,7 +1,14 @@
 .content{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
   .logo{
     text-align: center;
     margin-top: 95px;
+    p{
+      color: #D4009B;
+
+    }
   }
 }
 
@@ -27,5 +34,17 @@
     &:nth-child(5){
       margin-right: 0;
     }
+  }
+}
+
+.footer_guys{
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  img{
+    width: 100%;
+  }
+  .mobile_guys{
+    display: none;
   }
 }

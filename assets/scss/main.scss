@@ -1,14 +1,75 @@
 @import '~/assets/scss/base/reset.scss';
 
+// //font-famaily for English
+// @font-face{	
+//   font-family: 'Roboto';
+//   src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+//   unicode-range: U+0000-00FF;
+// }
 
-@font-face{
-  src: url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
-  font-family: 'Noto Sans TC','微軟正黑體';
-}
+// //font-famaily for Chinese
+// @font-face{
+//   font-family: 'Noto Sans TC','微軟正黑體';
+//   src: url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+//   unicode-range: U+4E00-9FFF;
+// }
+
+// //font-famaily for number
+// @font-face{
+//   font-family: 'Roboto';
+//   src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+//   unicode-range: U+0030-0039;
+// }
 
 body{
-  font-family: 'Noto Sans TC','微軟正黑體';
-  color: $text;
+  font-family: 'Roboto','Noto Sans TC','微軟正黑體';
   background-color: #fff;
-  
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: $gray-800;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: $gray-800;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: $gray-800;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: $gray-800;
+}
+
+h5{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $gray-800;
+}
+
+h6{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $gray-800;
+}
+
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
